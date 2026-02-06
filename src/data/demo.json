@@ -1,0 +1,111 @@
+{
+  "reviews": [
+    {
+      "id": "rev-1",
+      "name": "Samir Khan",
+      "trade": "Electrician",
+      "rating": 5,
+      "text": "Booked 6 call-backs in week one. The quote form saves me time on site visits.",
+      "location": "Leeds"
+    },
+    {
+      "id": "rev-2",
+      "name": "Lucy Garner",
+      "trade": "Builder",
+      "rating": 5,
+      "text": "The booking widget is proper. Clients pick a slot and I just show up.",
+      "location": "Bristol"
+    },
+    {
+      "id": "rev-3",
+      "name": "Chris O'Neill",
+      "trade": "Plumber",
+      "rating": 4,
+      "text": "Got more enquiries in the first month than my old directory listing.",
+      "location": "Sheffield"
+    },
+    {
+      "id": "rev-4",
+      "name": "Jade Patel",
+      "trade": "Roofer",
+      "rating": 5,
+      "text": "Simple, clean site. Quote estimator filters time-wasters.",
+      "location": "Nottingham"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "trade": "Builder",
+      "title": "Extension Project",
+      "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "gal-2",
+      "trade": "Electrician",
+      "title": "Consumer Unit Upgrade",
+      "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "gal-3",
+      "trade": "Plumber",
+      "title": "Boiler Service",
+      "image": "https://images.unsplash.com/photo-1505798577917-a65157d3320a?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "gal-4",
+      "trade": "Roofer",
+      "title": "Flat Roof Replacement",
+      "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
+    }
+  ],
+  "services": {
+    "Builder": [
+      { "id": "build-1", "name": "Single-storey extension", "basePrice": 6800 },
+      { "id": "build-2", "name": "Garage conversion", "basePrice": 5200 },
+      { "id": "build-3", "name": "Structural wall removal", "basePrice": 2400 }
+    ],
+    "Electrician": [
+      { "id": "elec-1", "name": "Consumer unit upgrade", "basePrice": 780 },
+      { "id": "elec-2", "name": "Full rewire (3-bed)", "basePrice": 4200 },
+      { "id": "elec-3", "name": "EV charger install", "basePrice": 980 }
+    ],
+    "Plumber": [
+      { "id": "plumb-1", "name": "Boiler replacement", "basePrice": 2600 },
+      { "id": "plumb-2", "name": "Bathroom refit", "basePrice": 4800 },
+      { "id": "plumb-3", "name": "Leak investigation", "basePrice": 180 }
+    ],
+    "Roofer": [
+      { "id": "roof-1", "name": "Pitched roof repair", "basePrice": 950 },
+      { "id": "roof-2", "name": "Flat roof replacement", "basePrice": 3200 },
+      { "id": "roof-3", "name": "Guttering and fascia", "basePrice": 720 }
+    ]
+  },
+  "bookingSlots": [
+    { "id": "slot-1", "date": "2024-08-14", "time": "09:30" },
+    { "id": "slot-2", "date": "2024-08-14", "time": "13:00" },
+    { "id": "slot-3", "date": "2024-08-15", "time": "10:00" },
+    { "id": "slot-4", "date": "2024-08-16", "time": "15:00" }
+  ],
+  "towns": ["Birmingham", "Bristol", "Leeds", "Liverpool", "London", "Manchester", "Newcastle", "Nottingham", "Sheffield"],
+  "packages": [
+    {
+      "name": "Starter",
+      "price": "£79/mo",
+      "setup": "£399 setup",
+      "features": ["5-page website", "Mobile-first design", "Contact + enquiry form", "Basic SEO setup"]
+    },
+    {
+      "name": "Pro",
+      "price": "£129/mo",
+      "setup": "£599 setup",
+      "features": ["10-page website", "Quote estimator", "Booking widget", "Review capture + showcase", "Local SEO pages"]
+    },
+    {
+      "name": "Dominator",
+      "price": "£199/mo",
+      "setup": "£799 setup",
+      "features": ["Unlimited pages", "Conversion copywriting", "Advanced local SEO", "Monthly updates", "Priority support"]
+    }
+  ]
+}

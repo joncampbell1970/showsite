@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+* {
+  @apply border-slate-200;
+}
+
+a {
+  @apply text-brand-700 hover:text-brand-600;
+}
+
+.focus-ring {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2;
+}
+
+.container {
+  @apply mx-auto w-full max-w-6xl px-4;
+}
